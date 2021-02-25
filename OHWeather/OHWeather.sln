@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OHWeather", "OHWeather.csproj", "{845FB8C0-1F06-4389-A353-DB20569CD4A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OHWeather.Data", "..\OHWeather.Data\OHWeather.Data.csproj", "{175DE21D-CE87-45E4-9D04-A3A946CD0A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OHWeather.Test", "..\OHWeather.Test\OHWeather.Test.csproj", "{73C76A36-44FF-4828-AF56-E53F0D4D851F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{845FB8C0-1F06-4389-A353-DB20569CD4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{845FB8C0-1F06-4389-A353-DB20569CD4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{845FB8C0-1F06-4389-A353-DB20569CD4A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{175DE21D-CE87-45E4-9D04-A3A946CD0A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175DE21D-CE87-45E4-9D04-A3A946CD0A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175DE21D-CE87-45E4-9D04-A3A946CD0A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175DE21D-CE87-45E4-9D04-A3A946CD0A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C76A36-44FF-4828-AF56-E53F0D4D851F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C76A36-44FF-4828-AF56-E53F0D4D851F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C76A36-44FF-4828-AF56-E53F0D4D851F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C76A36-44FF-4828-AF56-E53F0D4D851F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
