@@ -15,5 +15,5 @@ As you will see there are two extra classes added to the OHWeather.Data.Model pr
 The .NET Core JSON serialiser was built to intentionally exclude the TypeNameHandling setting that Newtonsoft.Json uses for example. The main reason stated by the .NET teams is that this was done for security reasons.
 As such, these classes were used to circumvent the lack of the root object name as depicted in descriptions Sample Output.
 
-## Sorting and algorithim complexity. 
+## Sorting and algorithmic complexity. 
 There are always ways to improve performace but considering the fact that my process conformed to a linear O(n) I did not think that further performance improvments would be required.
