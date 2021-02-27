@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\_thomasJamesDev\\OHWeather\\OHWeather.Data\\OHWeather.Data.csproj": {}
+    "C:\\projects\\_thomasJamesDev\\OHWeather\\OHWeather.Data\\OHWeather.Data.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\_thomasJamesDev\\OHWeather\\OHWeather.Data\\OHWeather.Data.csproj": {
+    "C:\\projects\\_thomasJamesDev\\OHWeather\\OHWeather.Data\\OHWeather.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\_thomasJamesDev\\OHWeather\\OHWeather.Data\\OHWeather.Data.csproj",
+        "projectUniqueName": "C:\\projects\\_thomasJamesDev\\OHWeather\\OHWeather.Data\\OHWeather.Data.csproj",
         "projectName": "OHWeather.Data",
-        "projectPath": "C:\\Projects\\_thomasJamesDev\\OHWeather\\OHWeather.Data\\OHWeather.Data.csproj",
+        "projectPath": "C:\\projects\\_thomasJamesDev\\OHWeather\\OHWeather.Data\\OHWeather.Data.csproj",
         "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\_thomasJamesDev\\OHWeather\\OHWeather.Data\\obj\\",
+        "outputPath": "C:\\projects\\_thomasJamesDev\\OHWeather\\OHWeather.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,11 +43,19 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[25.0.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             }
           },
           "imports": [

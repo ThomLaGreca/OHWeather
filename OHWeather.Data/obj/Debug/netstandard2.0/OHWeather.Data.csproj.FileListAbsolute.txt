@@ -1,0 +1,9 @@
+C:\projects\_thomasJamesDev\OHWeather\OHWeather.Data\bin\Debug\netstandard2.0\OHWeather.Data.deps.json
+C:\projects\_thomasJamesDev\OHWeather\OHWeather.Data\bin\Debug\netstandard2.0\OHWeather.Data.dll
+C:\projects\_thomasJamesDev\OHWeather\OHWeather.Data\bin\Debug\netstandard2.0\OHWeather.Data.pdb
+C:\projects\_thomasJamesDev\OHWeather\OHWeather.Data\obj\Debug\netstandard2.0\OHWeather.Data.AssemblyInfoInputs.cache
+C:\projects\_thomasJamesDev\OHWeather\OHWeather.Data\obj\Debug\netstandard2.0\OHWeather.Data.AssemblyInfo.cs
+C:\projects\_thomasJamesDev\OHWeather\OHWeather.Data\obj\Debug\netstandard2.0\OHWeather.Data.csproj.CoreCompileInputs.cache
+C:\projects\_thomasJamesDev\OHWeather\OHWeather.Data\obj\Debug\netstandard2.0\OHWeather.Data.dll
+C:\projects\_thomasJamesDev\OHWeather\OHWeather.Data\obj\Debug\netstandard2.0\OHWeather.Data.pdb
+C:\projects\_thomasJamesDev\OHWeather\OHWeather.Data\obj\Debug\netstandard2.0\OHWeather.Data.csprojAssemblyReference.cache

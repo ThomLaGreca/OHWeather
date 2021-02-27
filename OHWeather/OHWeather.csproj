@@ -5,4 +5,32 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="25.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OHWeather.Core\OHWeather.Core.csproj" />
+    <ProjectReference Include="..\OHWeather.Data\OHWeather.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="FileBucket\IDCJAC0009_066062_1800_Data.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="FileBucket\test_data_single.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="FileBucket\test_data_some.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="IDCJAC0009_066062_1800_Data.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="FileBucket\" />
+  </ItemGroup>
+
 </Project>
