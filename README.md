@@ -1,9 +1,11 @@
 # OHWeather
 
+## Application Use
+Orinigally I had planned to use a dialog to allow the user to select a file from a directory however the integration of Windows forms seemed to be causing some issues. For the sake of time and scope this avenue was abandoned. In order for the application to read a selected file it must reside in the {root}/FileBucket folder. If the application is being run from Visual Studio add the files to the FileBucket folder and set the file property 'Copy to output directory' to always/if newer. I have included a few sample files in the project already, including the BOM 'All years' test data for your convenience. 
+
 ## Structure
 The structure of the application is seperated to some degree into its different concerns via each of the seperate projcts. 
 In practise the application could have been structured into one main project with a testing project. However, my goal was to excersie a clear and easy to extend seperation.
-The SOLID principles could have indeed been actioned further, using dependency injection for example but this seemed to go a little overboard considering time and scope. 
 
 ## Json Sample vs Result
 In the sample output the data was displayed as a single object with single children. 
