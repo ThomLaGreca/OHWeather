@@ -14,7 +14,7 @@ namespace OHWeather.Data.Model
     {
       get
       {
-        if(FirstRecordedDate == default)
+        if (FirstRecordedDate == default)
         {
           return "-";
         }

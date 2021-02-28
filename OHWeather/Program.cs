@@ -1,4 +1,5 @@
 ﻿using OHWeather.Processors;
+using OHWeather.Utility;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -34,7 +35,7 @@ namespace OHWeather
 
       if (input.KeyChar == 'y')
       {
-        FileProcessor.WriteDataToFile(jsonResult, $"{Path.GetFileNameWithoutExtension(fileLocation)}_results.json");
+        FileUtility.WriteDataToFile(jsonResult, $"{Path.GetFileNameWithoutExtension(fileLocation)}_results.json");
       }
 
       if (input.KeyChar == 'n')
@@ -75,7 +76,7 @@ namespace OHWeather
     private static string PromptFileSelection()
     {
 
-      var files = FileProcessor.ReadFiles();
+      var files = FileUtility.ReadFiles();
 
       ShowOptions(files);
 

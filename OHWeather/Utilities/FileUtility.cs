@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace OHWeather.Processors
+namespace OHWeather.Utility
 {
-  public static class FileProcessor
+  public static class FileUtility
   {
     public static List<string> ReadFiles()
     {
@@ -46,7 +46,7 @@ namespace OHWeather.Processors
 
       if (!files.Any())
       {
-        Console.WriteLine("No files found in FileBucket. Please add a file to the specified 'FileBucket' and restart the application.");
+        Console.WriteLine("No files found in FileBucket. Please add a file to the specified location and restart the application.");
         throw new FileNotFoundException();
       }
 

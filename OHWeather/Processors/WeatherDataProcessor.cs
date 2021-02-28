@@ -46,9 +46,6 @@ namespace OHWeather.Processors
         }
       };
 
-      var yearData = new List<WeatherDataForYear>();
-
-
       foreach (var group in rowsByYear)
       {
         WeatherDataForYear year = CalculateWeatherDataForYear(group);
@@ -80,7 +77,6 @@ namespace OHWeather.Processors
       {
         var itemDate = new DateTime(item.Year, item.Month, item.Day);
 
-        // Do not include months in the future. 
         if (itemDate > DateTime.Now)
         {
           continue;
@@ -99,11 +95,12 @@ namespace OHWeather.Processors
         if (item.RainfallAmount == 0)
         {
           ++currentYear.DaysWithNoRainfall;
-          if(runningDaysOfRain > currentYear.LongestNumberOfDaysRaining)
+
+          if (runningDaysOfRain > currentYear.LongestNumberOfDaysRaining)
           {
             currentYear.LongestNumberOfDaysRaining = runningDaysOfRain;
           }
-    
+
           runningDaysOfRain = 0;
         }
 

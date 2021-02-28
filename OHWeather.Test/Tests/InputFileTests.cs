@@ -1,6 +1,6 @@
-using OHWeather.Processors;
 using OHWeather.Test.Constants;
 using OHWeather.Test.Utility;
+using OHWeather.Utility;
 using System.IO;
 using Xunit;
 
@@ -13,7 +13,7 @@ namespace OHWeather.Test.Tests
     {
       string failedPath = "Failed";
 
-      Assert.Throws<FileNotFoundException>(() => FileProcessor.ValidateFilePath(failedPath));
+      Assert.Throws<FileNotFoundException>(() => FileUtility.ValidateFilePath(failedPath));
     }
 
     [Fact]
@@ -21,7 +21,7 @@ namespace OHWeather.Test.Tests
     {
       var successPath = FileLocationUtility.GetRelativeTestPath(FileConstants.TEST_DATA_CSV_ALL);
 
-      FileProcessor.ValidateFilePath(successPath);
+      FileUtility.ValidateFilePath(successPath);
     }
 
     [Fact]
@@ -29,7 +29,7 @@ namespace OHWeather.Test.Tests
     {
       var failedPath = FileLocationUtility.GetRelativeTestPath(FileConstants.TEST_DATA_PDF_FAIL);
 
-      Assert.Throws<FileLoadException>(() => FileProcessor.ValidateFilePath(failedPath));
+      Assert.Throws<FileLoadException>(() => FileUtility.ValidateFilePath(failedPath));
     }
 
 
